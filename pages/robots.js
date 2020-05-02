@@ -10,7 +10,11 @@ const Robots = ({ robots }) => {
       </Link>
       <div>
         {robots.map((robot) => (
-          <li key={robot.id}>{robot.name}</li>
+          <li key={robot.id}>
+            <Link href={`robots/${robot.id}`}>
+              <a>{robot.name}</a>
+            </Link>
+          </li>
         ))}
       </div>
     </div>

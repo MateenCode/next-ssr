@@ -4406,7 +4406,22 @@ var Robots = function Robots(_ref) {
         lineNumber: 13,
         columnNumber: 11
       }
-    }, robot.name);
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "robots/".concat(robot.id),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 15
+      }
+    }, robot.name)));
   })));
 };
 
